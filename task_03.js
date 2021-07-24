@@ -1,9 +1,3 @@
-/*
-Задание 3
-Напиши фукцнию findLongestWord(string), которая принимает параметром произвольную строку 
-(в строке будут только слова и пробелы) и возвращает самое длинное слово в этой строке.
-*/
-
 const findLongestWord = function(string) {
     let words = string.split(' ');
     let result = words[0]
